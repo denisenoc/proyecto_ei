@@ -21,7 +21,7 @@
 
 .parrafo1 {
   font-family: "Hind", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #c4b7a6; }
 
 img {
@@ -29,7 +29,7 @@ img {
 
 .carSlider {
   margin-left: 20px;
-  width: 90%; }
+  width: 92%; }
 
 footer {
   text-align: center; }
@@ -37,22 +37,22 @@ footer {
 .footer1 {
   font-family: "Kaushan Script", cursive;
   color: #DEB887;
-  font-size: 19px; }
+  font-size: 20px; }
 
 .footer2 {
   font-family: "Hind", sans-serif;
   color: #DEB887;
-  font-size: 14px; }
+  font-size: 15px; }
 
 .footer3 {
   font-family: "Hind", sans-serif;
   color: #DEB887;
-  font-size: 15px; }
+  font-size: 19px; }
 
 /* barra de navegación */
 .nav-link {
   color: #DEB887;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Hind", sans-serif;
   margin-top: 15px; }
 
@@ -68,6 +68,7 @@ footer {
 
 .figure-caption {
   width: 50%;
+  padding: 8px 0px 40px 0px;
   font-family: "Hind", sans-serif;
   font-size: 16px;
   color: #c4b7a6; }
@@ -127,10 +128,10 @@ textarea {
 /* Media Queries */
 @media (max-width: 768px) {
   .nav-link {
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 0px; }
   .tituloPrinc {
-    font-size: 40px;
+    font-size: 42px;
     text-align: center; }
   .tituloView {
     font-size: 20px;
@@ -146,9 +147,16 @@ textarea {
   .textProd {
     font-size: 13px; }
   .parrafo1 {
-    font-size: 13px; }
+    font-size: 14px;
+    padding: 0px 0px 40px 15px; }
   .imgNovedades {
     width: 60%; }
   .figure-caption {
     font-size: 13px;
-    padding: 5px 0px 30px 5px; } }
+    padding: 5px 0px 30px 5px; }
+  .footer1 {
+    font-size: 14px; }
+  .footer2 {
+    font-size: 11px; }
+  .footer3 {
+    font-size: 12px; } }

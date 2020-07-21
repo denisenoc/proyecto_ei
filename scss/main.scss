@@ -32,7 +32,7 @@ $color5: #c8bbac;
 
 .parrafo1 {
     font-family: $tipografia1;
-    font-size: 18px;
+    font-size: 20px;
     color: $color3;
 }
 
@@ -42,7 +42,7 @@ img {
 
 .carSlider {
     margin-left: 20px;
-    width: 90%;
+    width: 92%;
 }
 
 footer {
@@ -52,25 +52,25 @@ footer {
 .footer1 {
     font-family: $tipografia2;
     color: $color4;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .footer2 {
     font-family: $tipografia1;
     color: $color4;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .footer3 {
     font-family: $tipografia1;
     color: $color4;
-    font-size: 15px;
+    font-size: 19px;
 }
 
 /* barra de navegación */
 .nav-link {
     color: $color4;
-    font-size: 18px;
+    font-size: 20px;
     font-family: $tipografia1;
     margin-top: 15px;
 }
@@ -90,6 +90,7 @@ footer {
 
 .figure-caption {
     width: 50%;
+    padding: 8px 0px 40px 0px;
     font-family: $tipografia1;
     font-size: 16px;
     color: $color3;
@@ -151,11 +152,11 @@ textarea{
 /* Media Queries */ 
 @media (max-width: 768px) {
 	.nav-link {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 0px;
 	}
 	.tituloPrinc {
-        font-size: 40px;
+        font-size: 42px;
         text-align: center;
     }
     .tituloView {
@@ -178,7 +179,8 @@ textarea{
         font-size: 13px;
     }
 	.parrafo1 {
-		font-size: 13px;
+        font-size: 14px;
+        padding: 0px 0px 40px 15px;
     } 
     .imgNovedades {
         width: 60%;
@@ -186,5 +188,14 @@ textarea{
     .figure-caption {
         font-size: 13px; 
         padding: 5px 0px 30px 5px;
-	}
+    }
+    .footer1 {
+        font-size: 14px;
+    }
+    .footer2 {
+        font-size: 11px;
+    }
+    .footer3 {
+        font-size: 12px;
+    }
 }
